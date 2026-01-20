@@ -7,24 +7,40 @@ const projects = [
     description:
       "A real-time weather application that displays current weather conditions using a public API.",
     tech: "HTML • CSS • JavaScript",
-    live: "#",
-    github: "#",
+    live: "weather-web-pi-mocha.vercel.app",
+    github: "https://github.com/Chiefpriest123/Weather-Web",
+  },
+  {
+    title: "Crypto App",
+    description:
+      "Work In Progress",
+    tech: "HTML • CSS • JavaScript",
+    live: "crypto-broker-three.vercel.app",
+    github: "https://github.com/Chiefpriest123/Crypto-Broker",
+  },
+  {
+    title: "TO-DO list",
+    description:
+      "A sleek, functional To-Do List application built with vanilla web technologies. This project focuses on clean UI/UX and efficient task management using local storage.",
+    tech: "HTML • CSS • JavaScript",
+    live: "https://chiefpriest123.github.io/To-Do-List/Todo.html",
+    github: "https://github.com/Chiefpriest123/To-Do-List",
   },
   {
     title: "E-commerce Website",
     description:
-      "A modern and responsive online store with product listings and clean UI.",
+      "still in progress",
     tech: "React • Tailwind CSS",
-    live: "#",
-    github: "#",
+    live: "In Progress",
+    github: "https://github.com/Chiefpriest123/3legant",
   },
   {
     title: "Portfolio Website",
     description:
       "My personal portfolio showcasing my skills, projects, and experience.",
     tech: "React • Tailwind CSS",
-    live: "#",
-    github: "#",
+    live: "my-portfolio-bice-theta-38.vercel.app",
+    github: "https://github.com/Chiefpriest123/My-Portfolio",
   },
 ];
 
