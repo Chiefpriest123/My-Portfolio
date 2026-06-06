@@ -10,7 +10,7 @@ const Hero = () => {
     animate={{opacity: 1, y: 0}}
     transition={{duration: 2}}>
         <h1 className='text-4xl md:text-5xl font-bold mb-4'>
-            Hi, I'm Daniel Princewill 👋
+            Hi, I'm Princewill Daniel 👋
         </h1>
         <p className='text-lg md:text-xl mb-6'>
             Frontend Developer | React & Tailwind Css Enthusiast

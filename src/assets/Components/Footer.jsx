@@ -10,7 +10,7 @@ const Footer = () => {
       viewport={{ once: true }}
       transition={{ duration: 2 }}
     >
-      © {new Date().getFullYear()} Daniel — All rights reserved.
+      © {new Date().getFullYear()} Princewill — All rights reserved.
     </motion.footer>
   );
 };
