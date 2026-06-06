@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, ExternalLink } from "lucide-react";
+import { motion } from "framer-motion";
 
 const projects = [
   {
@@ -35,6 +36,14 @@ const projects = [
     github: "https://github.com/Chiefpriest123/3legant",
   },
   {
+    title: "WheelsDeel",
+    description:
+      "A car landing page website shows the different car models and their features.",
+    tech: "React • Tailwind CSS",
+    live: "In Progress",
+    github: "https://github.com/Chiefpriest123/Car-Web",
+  },
+  {
     title: "Portfolio Website",
     description:
       "My personal portfolio showcasing my skills, projects, and experience.",
@@ -46,7 +55,12 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="max-w-6xl mx-auto px-7 py-20">
+    <motion.section className="max-w-6xl mx-auto px-7 py-20"
+      initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        whileOutView={{ opacity: 0, y: -50 }}
+        viewport={{ once: true }}
+        transition={{ duration: 2 }}>
       <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -91,7 +105,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

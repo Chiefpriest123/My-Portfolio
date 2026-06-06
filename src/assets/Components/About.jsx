@@ -9,7 +9,7 @@ const About = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 2 }}
       >
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">

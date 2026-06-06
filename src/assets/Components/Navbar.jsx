@@ -11,7 +11,7 @@ const Navbar = ({dark,setDark}) => {
         <motion.nav className='w-full bg-white dark:bg-gray-800 shadow-md fixed top-0 z-50'
         initial={{y: -60 }}
         animate={{y: 0}}
-        transition={{ duration: 0.4 }}>
+        transition={{ duration: 2 }}>
 
           <div className='max-w-6xl mx-auto flex justify-between items-center px-6 py-4'>
           <Link to='/' className='font-bold text-xl'>
@@ -43,7 +43,7 @@ const Navbar = ({dark,setDark}) => {
             <motion.div className='md:hidden bg-white dark:bg-gray-800 pborder-t dark:border-gray-700'
             initial={{height: 0}}
             animate={{height: 'auto'}}
-            transition={{duration: 0.01}}>
+            transition={{duration: 2}}>
               <div className='flex flex-col items-center gap-4 py-4'>
               <Link to='/' onClick={() => setOpen(false)}>Home</Link>
               <Link to='/about' onClick={() => setOpen(false)}>About</Link>

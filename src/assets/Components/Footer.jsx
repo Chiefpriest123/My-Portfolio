@@ -8,7 +8,7 @@ const Footer = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 2 }}
     >
       © {new Date().getFullYear()} Daniel — All rights reserved.
     </motion.footer>

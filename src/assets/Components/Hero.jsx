@@ -8,7 +8,7 @@ const Hero = () => {
     
     initial={{opacity: 0, y: 50}}
     animate={{opacity: 1, y: 0}}
-    transition={{duration: 0.8}}>
+    transition={{duration: 2}}>
         <h1 className='text-4xl md:text-5xl font-bold mb-4'>
             Hi, I'm Daniel Princewill 👋
         </h1>

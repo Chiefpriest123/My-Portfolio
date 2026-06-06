@@ -7,7 +7,7 @@ const Contact = () => (
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 2 }}
     >
       <h2 className="text-3xl font-bold mb-6 text-center">Contact Me</h2>
       <form className="max-w-lg mx-auto bg-white dark:bg-gray-800 shadow-md p-8 rounded-2xl space-y-4">
